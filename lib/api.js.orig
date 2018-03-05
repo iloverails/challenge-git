@@ -8,9 +8,13 @@ var Things = require('./models/things')
 module.exports = {
   get: get,
   put: put,
-  echo: echo,
+<<<<<<< 4b58ffb138e81e0dee4d640151cb4f69545c1821
   stream: stream,
   reverse: reverse
+=======
+  echo: echo,
+  stream: stream
+>>>>>>> feat: add echo route
 }
 
 function get (req, res, opts, cb) {
